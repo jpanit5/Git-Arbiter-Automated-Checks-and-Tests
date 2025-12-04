@@ -1,0 +1,73 @@
+Check,Result,Time(s),Details
+Type Check,FAIL,2.03,"src\main.py:11: error: Library stubs not installed for ""requests""  [import-untyped]
+src\main.py:11: note: Hint: ""python3 -m pip install types-requests""
+src\main.py:11: note: (or run ""mypy --install-types"" to install all missing stub packages)
+src\main.py:11: note: See https://mypy.readthedocs.io/en/stable/running_mypy.html#missing-imports
+src\main.py:17: error: Function is missing a return type annotation  [no-untyped-def]
+src\main.py:17: note: Use ""-> None"" if function does not return a value
+src\main.py:38: error: Function is missing a return type annotation  [no-untyped-def]
+src\main.py:38: note: Use ""-> None"" if function does not return a value
+src\main.py:44: error: Function is missing a return type annotation  [no-untyped-def]
+src\main.py:47: error: Item ""None"" of ""Any | None"" has no attribute ""get""  [union-attr]
+src\main.py:48: error: Value of type variable ""D"" of ""WebDriverWait"" cannot be ""Any | None""  [type-var]
+src\main.py:49: error: Item ""None"" of ""Any | None"" has no attribute ""execute_script""  [union-attr]
+src\main.py:52: error: Argument 1 to ""until"" of ""WebDriverWait"" has incompatible type ""Callable[[WebDriver | WebElement], WebElement]""; expected ""Callable[[Any | None], Literal[False] | WebElement]""  [arg-type]
+src\main.py:53: error: Argument 1 to ""until"" of ""WebDriverWait"" has incompatible type ""Callable[[WebDriver | WebElement], WebElement]""; expected ""Callable[[Any | None], Literal[False] | WebElement]""  [arg-type]
+src\main.py:58: error: Argument 1 to ""until"" of ""WebDriverWait"" has incompatible type ""Callable[[WebDriver | WebElement], Literal[False] | WebElement]""; expected ""Callable[[Any | None], Literal[False] | WebElement]""  [arg-type]
+src\main.py:64: error: Function is missing a type annotation  [no-untyped-def]
+src\main.py:79: error: Function is missing a return type annotation  [no-untyped-def]
+src\main.py:98: error: Function is missing a type annotation  [no-untyped-def]
+src\main.py:103: error: Function is missing a type annotation  [no-untyped-def]
+src\main.py:105: error: Value of type variable ""D"" of ""WebDriverWait"" cannot be ""Any | None""  [type-var]
+src\main.py:106: error: Item ""None"" of ""Any | None"" has no attribute ""find_elements""  [union-attr]
+src\main.py:108: error: Item ""None"" of ""Any | None"" has no attribute ""switch_to""  [union-attr]
+src\main.py:110: error: Argument 1 to ""until"" of ""WebDriverWait"" has incompatible type ""Callable[[WebDriver | WebElement], Literal[False] | WebElement]""; expected ""Callable[[Any | None], Literal[False] | WebElement]""  [arg-type]
+src\main.py:112: error: Item ""None"" of ""Any | None"" has no attribute ""switch_to""  [union-attr]
+src\main.py:115: error: Item ""None"" of ""Any | None"" has no attribute ""switch_to""  [union-attr]
+src\main.py:119: error: Function is missing a return type annotation  [no-untyped-def]
+src\main.py:119: note: Use ""-> None"" if function does not return a value
+src\main.py:121: error: Value of type variable ""D"" of ""WebDriverWait"" cannot be ""Any | None""  [type-var]
+src\main.py:123: error: Argument 1 to ""until"" of ""WebDriverWait"" has incompatible type ""Callable[[WebDriver | WebElement], Literal[False] | WebElement]""; expected ""Callable[[Any | None], Literal[False] | WebElement]""  [arg-type]
+src\main.py:127: error: Function is missing a return type annotation  [no-untyped-def]
+src\main.py:127: note: Use ""-> None"" if function does not return a value
+src\main.py:132: error: Function is missing a return type annotation  [no-untyped-def]
+src\main.py:132: note: Use ""-> None"" if function does not return a value
+src\main.py:138: error: Function is missing a return type annotation  [no-untyped-def]
+src\main.py:140: error: Value of type variable ""D"" of ""WebDriverWait"" cannot be ""Any | None""  [type-var]
+src\main.py:141: error: Item ""None"" of ""Any | None"" has no attribute ""switch_to""  [union-attr]
+src\main.py:143: error: Item ""None"" of ""Any | None"" has no attribute ""find_elements""  [union-attr]
+src\main.py:146: error: Item ""None"" of ""Any | None"" has no attribute ""switch_to""  [union-attr]
+src\main.py:148: error: Item ""None"" of ""Any | None"" has no attribute ""find_elements""  [union-attr]
+src\main.py:150: error: Item ""None"" of ""Any | None"" has no attribute ""switch_to""  [union-attr]
+src\main.py:153: error: Item ""None"" of ""Any | None"" has no attribute ""switch_to""  [union-attr]
+src\main.py:160: error: Argument 1 to ""until"" of ""WebDriverWait"" has incompatible type ""Callable[[WebDriver], bool]""; expected ""Callable[[Any | None], Literal[False] | bool]""  [arg-type]
+src\main.py:184: error: Item ""None"" of ""Any | None"" has no attribute ""find_element""  [union-attr]
+src\main.py:198: error: Argument 1 to ""until"" of ""WebDriverWait"" has incompatible type ""Callable[[WebDriver | WebElement], WebElement]""; expected ""Callable[[Any | None], Literal[False] | WebElement]""  [arg-type]
+src\main.py:203: error: Argument 1 to ""until"" of ""WebDriverWait"" has incompatible type ""Callable[[WebDriver | WebElement], WebElement]""; expected ""Callable[[Any | None], Literal[False] | WebElement]""  [arg-type]
+src\main.py:210: error: Item ""None"" of ""Any | None"" has no attribute ""switch_to""  [union-attr]
+src\main.py:214: error: Function is missing a return type annotation  [no-untyped-def]
+src\main.py:214: note: Use ""-> None"" if function does not return a value
+src\main.py:218: error: Function is missing a return type annotation  [no-untyped-def]
+src\main.py:218: note: Use ""-> None"" if function does not return a value
+src\main.py:222: error: Function is missing a return type annotation  [no-untyped-def]
+src\main.py:222: note: Use ""-> None"" if function does not return a value
+src\main.py:227: error: Function is missing a type annotation  [no-untyped-def]
+src\main.py:243: error: Function is missing a return type annotation  [no-untyped-def]
+src\main.py:243: note: Use ""-> None"" if function does not return a value
+Found 43 errors in 1 file (checked 1 source file)
+
+mypy.ini: [mypy]: python_version: Invalid python version '3.13.9' (expected format: 'x.y')"
+Lint Check,FAIL,0.47,"C:\Users\localadmin\Desktop\Automation\server_check\src\main.py:86:101: E501 line too long (154 > 100 characters)
+C:\Users\localadmin\Desktop\Automation\server_check\src\main.py:91:17: E722 do not use bare 'except'
+C:\Users\localadmin\Desktop\Automation\server_check\src\main.py:114:13: E722 do not use bare 'except'
+C:\Users\localadmin\Desktop\Automation\server_check\src\main.py:138:5: C901 'TimesheetBot.fill_training_hours' is too complex (16)
+C:\Users\localadmin\Desktop\Automation\server_check\src\main.py:138:5: E303 too many blank lines (2)
+C:\Users\localadmin\Desktop\Automation\server_check\src\main.py:152:13: E722 do not use bare 'except'
+C:\Users\localadmin\Desktop\Automation\server_check\src\main.py:189:17: E722 do not use bare 'except'
+C:\Users\localadmin\Desktop\Automation\server_check\src\main.py:214:5: E303 too many blank lines (2)
+C:\Users\localadmin\Desktop\Automation\server_check\src\main.py:227:5: E303 too many blank lines (2)"
+Import Style Check,FAIL,0.32,ERROR: C:\Users\localadmin\Desktop\Automation\server_check\src\main.py Imports are incorrectly sorted and/or formatted.
+Formatting Check,FAIL,0.5,"would reformat C:\Users\localadmin\Desktop\Automation\server_check\src\main.py
+
+Oh no! \U0001f4a5 \U0001f494 \U0001f4a5
+1 file would be reformatted."
